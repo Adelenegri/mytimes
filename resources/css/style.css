@@ -36,22 +36,31 @@ a {
  color: black;
 }
 
-.content {
+.container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+.content {
   border: 3px solid black;
 }
 
 .column.large {
   display: flex;
   width: 630px;
+  border: 3px solid black;
 }
 
 .column.medium {
   display: flex;
   width: 300px;
+  border: 3px solid black;
 }
 
 .column.small {
   display: flex;
   width: 240px;
+  border: 3px solid black;
 }
