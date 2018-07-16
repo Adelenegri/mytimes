@@ -4,28 +4,39 @@
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  position: relative;
+  width: 1270px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
   color: MediumAquamarine;
-  display: inline-flex;
+  width: 300px;
+  height: 80px;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  margin: 20px;
-  padding: 20px;
-  clear: both;
+  margin-left: 10px;
+  flex: 1 1 300px;
+}
+
+.logo span {
+margin-left: 10px;
 }
 
 .nav {
-  color: black;
-  display: inline-block;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+flex: 1 1 180px;
+margin-left: auto;
+width: 180px;
 }
+
 .nav li{
   display: inline-block;
+  justify-content: flex-end;
+
 }
 
 ul{
@@ -34,6 +45,7 @@ ul{
 
 a {
  color: black;
+ margin: 0 10px;
 }
 
 .container {
@@ -77,6 +89,8 @@ a {
 .story.earth {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .story.research {
@@ -100,7 +114,7 @@ a {
   color: black;
 }
 
-.image {
+.image p{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
