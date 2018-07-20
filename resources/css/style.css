@@ -89,22 +89,21 @@ a {
   height: 300px;
 }
 
-
-.story.earth {
+.image.earth {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   background-repeat: repeat-x;
   height: 300px;
 }
 
-.story.research {
+.image.research {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   background-repeat: repeat-x;
   height: 300px;
 }
 
-.story.cats {
+.image.cats {
   display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   height: 300px;
@@ -120,14 +119,20 @@ a {
   color: black;
 }
 
-.image p{
+.content h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.image  {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
-.story.mother p {
+.story.mother {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
