@@ -164,3 +164,23 @@ a {
   font-size: 40px;
   color: white;
 }
+
+.story.bites {
+  border-collapse: collapse;
+}
+.story.bites p{
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 15px 15px;
+}
+
+.story.bites h2 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
