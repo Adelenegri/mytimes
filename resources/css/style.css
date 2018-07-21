@@ -62,9 +62,10 @@ a {
 
 .column.large {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 630px;
   border: 3px solid black;
+  flex-wrap: wrap;
 }
 
 .column.medium {
@@ -94,6 +95,7 @@ a {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   background-repeat: repeat-x;
   height: 300px;
+  width: 300px;
 }
 
 .image.research {
@@ -101,6 +103,7 @@ a {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   background-repeat: repeat-x;
   height: 300px;
+  width: 300px;
 }
 
 .image.cats {
@@ -117,11 +120,14 @@ a {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin: 20px 0;
+  width: 300px;
 }
 
 .content h3 {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 22px;
+  margin: 20px 0;
 }
 
 .image  {
