@@ -184,3 +184,44 @@ a {
   text-align: center;
   margin: 30px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 1270px;
+  height: 350px;
+  align-content: center;
+}
+.footer.info {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 30px;
+  border: 1px solid black;
+}
+.footer.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  width: 150px;
+  height: 30px;
+}
+
+.footer.nav {
+  width: 250px;
+  height: 30px;
+}
+
+.footer.copyright {
+  width: 600px;
+  height: 30px;
+  border: 1px solid black;
+}
